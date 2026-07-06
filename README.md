@@ -23,8 +23,7 @@ A modern **Gate Management System** built using the **MERN Stack**. The platform
 * Vite
 * Tailwind CSS
 * Axios
-* React Router DOM
-
+  
 ### Backend
 
 * Node.js
@@ -44,42 +43,38 @@ A modern **Gate Management System** built using the **MERN Stack**. The platform
 
 ```text
 mygate/
-├── client/
-├── server/
+├── Frontend/
+├── Backend/
 ├── docs/
 ├── README.md
-└── LICENSE
-```
-
-## 🚀 Getting Started
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/<your-organization>/mygate-website.git
-```
 
-### Install Dependencies
+🚦 Getting Started`
+Prerequisites
+  Node.js (v18+)
+  MongoDB Instance
+  Exotel API Credentials
+  Razorpay API Keys
 
-```bash
-# Frontend
-cd client
-npm install
+Installation
 
 # Backend
-cd ../server
-npm install
-```
-
-### Start Development Server
-
-```bash
-# Backend
-npm run dev
+cd backend && npm install
 
 # Frontend
+cd frontend && npm install
+
+### Running System
+
+# Start Backend (from /backend)
 npm run dev
-```
+
+# Start Frontend (from /frontend)
+npm run dev
 
 ## 🔮 Future Enhancements
 
@@ -96,11 +91,6 @@ npm run dev
 
 Contributions are welcome. Please create a feature branch, commit your changes, and submit a pull request.
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 **Developed with ❤️ using the MERN Stack.**
 .
