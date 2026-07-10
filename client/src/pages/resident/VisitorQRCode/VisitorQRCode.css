@@ -1,0 +1,71 @@
+.visitor-qr__title {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.visitor-qr__subtitle {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  max-width: 640px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.visitor-qr__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.visitor-qr__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.visitor-qr__empty {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  text-align: center;
+  padding: 40px 16px;
+}
+
+.visitor-qr__pass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.visitor-qr__image {
+  width: 200px;
+  height: 200px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  padding: 12px;
+}
+
+.visitor-qr__pass-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.visitor-qr__pass-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.visitor-qr__pass-meta {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 800px) {
+  .visitor-qr__grid {
+    grid-template-columns: 1fr;
+  }
+}

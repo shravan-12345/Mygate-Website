@@ -1,0 +1,19 @@
+.visitor-approval__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.visitor-approval__header h1 {
+  font-size: 22px;
+}
+
+.visitor-approval__row-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.visitor-approval__dash {
+  color: var(--color-text-faint);
+}

@@ -1,0 +1,48 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-base), transform var(--transition-base);
+  border-top: 3px solid transparent;
+}
+
+.card--accent-primary {
+  border-top-color: var(--color-primary);
+}
+.card--accent-success {
+  border-top-color: var(--color-success);
+}
+.card--accent-warning {
+  border-top-color: var(--color-warning);
+}
+.card--accent-danger {
+  border-top-color: var(--color-danger);
+}
+.card--accent-info {
+  border-top-color: var(--color-info);
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px 0;
+}
+
+.card__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-navy);
+}
+
+.card__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card__body {
+  padding: 20px;
+}

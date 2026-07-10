@@ -1,0 +1,28 @@
+.not-found {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 24px;
+  gap: 10px;
+}
+
+.not-found__code {
+  font-family: var(--font-mono);
+  font-size: 72px;
+  font-weight: 700;
+  color: var(--color-primary-light);
+  line-height: 1;
+}
+
+.not-found h1 {
+  font-size: 22px;
+  max-width: 460px;
+}
+
+.not-found p {
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}

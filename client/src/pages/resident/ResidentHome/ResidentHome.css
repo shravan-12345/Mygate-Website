@@ -1,0 +1,53 @@
+.resident-home__stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.resident-home__stat-link {
+  display: block;
+}
+
+.resident-home__stat-card {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.resident-home__stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.resident-home__stat-card .card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.resident-home__stat-icon {
+  font-size: 22px;
+}
+
+.resident-home__stat-value {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.resident-home__stat-label {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 900px) {
+  .resident-home__stats {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .resident-home__stats {
+    grid-template-columns: 1fr;
+  }
+}
