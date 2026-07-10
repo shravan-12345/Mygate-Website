@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Society Management & Visitor Management System (MERN)
 
 ## Status: Phase 5 of 8 complete
@@ -320,5 +320,3 @@ Contributions are welcome. Please create a feature branch, commit your changes, 
 
 **Developed with ❤️ using the MERN Stack.**
 .
-
->>>>>>> ce01f6a3e38884c0d69b3d010acacf919699aa04
